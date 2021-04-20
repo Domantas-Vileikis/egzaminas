@@ -1,0 +1,25 @@
+:root {
+  --dark: #1c1c1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@import "components/header";
+@import "components/hero";
+@import "components/custom-section";
+@import "components/form";
+@import "components/tab-section";
