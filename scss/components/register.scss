@@ -1,0 +1,317 @@
+.register {
+    min-height: 500px;
+    width: 100%;
+
+   
+
+.img {
+    background-image: url(christoffer-engstrom-503481-unsplash.jpg);
+    background-size: 100% 933px;
+    height: 639px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: initial; 
+    background-position: 0px -200px;
+    z-index: 1;
+}
+.img::before {
+    content: ""; 
+    position: absolute;
+    width: 100%;
+    height: 639px;
+    background: rgb(226,120,102);
+    background: linear-gradient(90deg, rgba(226,120,102,1) 0%, rgba(102,150,226,1) 100%); 
+    opacity: 0.63;
+    z-index: 2;
+}
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+   
+    
+    .middle {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        align-self: center;
+        margin-top:140px; 
+        z-index: 3;
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 110px;
+    min-height: 235px;
+    // border: 2px solid red;
+    z-index: 3;
+ 
+    
+    .swiper-pagination-bullet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 10px;
+        font-size: 14px;
+        color:#FFFFFF;
+        opacity: 1;
+        margin: 20px 30px 0 0;
+        background: #A37169;
+       
+       
+      
+    }
+    
+ 
+        .button {
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+        
+        
+        
+
+    
+    
+
+        a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+        transform: rotate(-45deg);
+        }
+    }
+}
+.show{
+    position: relative;
+    width: 900px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 2px solid red;
+    margin-left: 100px;
+    margin-top: 20px;
+
+.s1 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+       .swiper-wrapper{
+         display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+                    .swiper-slide{
+                         display: flex;
+                        // justify-content: center;
+                        // align-items: center;
+.text {
+    max-width: 517px;
+    min-height: 1px;
+    z-index: 3;
+    align-self: center;
+    // border: 2px solid red;
+    box-sizing: border-box;
+    padding: 20px;
+
+
+    h2{
+        color: #FFFFFF;
+        font-size: 30px;
+       margin-bottom: 20px;
+    }
+
+    a {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+   
+}
+.images{
+    align-self: center;
+    max-width: 360px;
+    max-height: 360px;
+    z-index: 3;
+    // border: 2px solid black;
+
+    .firstrow {
+        display: flex;
+        justify-content: space-between;
+        width: 360px;
+        height: 168px; 
+        // border: 2px solid black;
+        margin-bottom: 20px;
+
+    .image1{
+        width: 167px;
+        height: 167px;
+        background-image: url(photo-1493409137604-0901c55e4456.jpg);
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-position: -10px -7px; 
+
+        
+    }
+    .photo1{
+        background-image: url(cabige1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+    .photo4{
+        background-image: url(cabige2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+  
+
+    .image1:hover::before {
+        content: ""; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        background-color: #E27866; 
+        color: #FFFFFF;
+        opacity: 0.8;
+        z-index: 2;
+    }
+    .image1:hover::after {
+        content: "Explore"; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        color: #FFFFFF;
+        z-index: 4;
+        
+    }
+    
+    .image2{
+        width: 167px;
+        height: 167px;
+        background-image: url(photo-1543364195-bfe6e4932397.jpg);
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-position: -10px -5px; 
+    }
+    
+    .photo2{
+        background-image: url(product.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+    .photo5{
+        background-image: url(product2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+    .image2:hover::before {
+        content: ""; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        background-color: #E27866; 
+        color: #FFFFFF;
+        opacity: 0.8;
+        z-index: 2;
+    }
+    .image2:hover::after {
+        content: "Cutted vegetables"; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        color: #FFFFFF;
+        z-index: 4;
+        
+    }
+    }
+    .image3{
+        width: 362px;
+        height: 177px;
+        background-image: url(photo-1448387473223-5c37445527e7.jpg);
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: -10px -5px; 
+    }
+    .image3:hover::before {
+        content: ""; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 362px;
+        height: 177px;
+        background-color: #E27866; 
+        color: #FFFFFF;
+        opacity: 0.8;
+        z-index: 2;
+    }
+    .image3:hover::after {
+        content: "Some Shoes"; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 362px;
+        height: 177px;
+        color: #FFFFFF;
+        z-index: 4;
+        
+    }
+    .photo3{
+        background-image: url(shoe.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+    .photo6{
+        background-image: url(shoe2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+}
+}
+}
+}
+}
+}
+}
+

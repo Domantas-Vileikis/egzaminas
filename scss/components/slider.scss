@@ -1,0 +1,120 @@
+.slider {
+    width: 100%;
+    color: #FFFFFF;
+      
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    .text {
+       font-size: 36px;
+       color: #1C1C1C;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       margin: 67px 0 58px 0;
+
+       p {
+           font-size: 20px;
+       }
+
+    }
+    .line{
+        background-color: #6696E2;
+        margin: 31px 0 0 0;
+
+    }
+
+        .slide {
+            width: 100%;
+            min-height: 236px;
+            // border: 2px solid red;
+        }
+            .swiper-container {
+                height: 500px;
+                background: var(--main-white-color);
+            }
+            
+            .swiper-slide {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: var(--main-white-color);
+            }
+        
+            .swiper-pagination-bullet {
+                background-color: #FFFFFF;
+                border: 2px solid #E27866 ;
+                height: 10px;
+                width: 10px;
+                box-sizing: border-box;
+                margin: 550px 20px 0 0;
+                
+            
+            }
+        
+            .swiper-pagination-bullet-active {
+                // background-color: #E27866;
+                background-color: #E27866;
+                border: 2px solid #E27866 ;
+                height: 10px;
+                width: 10px;
+                box-sizing: border-box;
+            
+            }
+            
+        }
+    }
+
+// _____________________________________chat head________________________
+.chat {
+position: absolute;
+margin: 5px 0px 0 -80px ;
+height: 90px;
+width: 50px;
+border-radius: 100%;
+border: 2px solid var(--main-white-color);
+background-image: url(avatar.png);
+background-size: cover;
+background-repeat: no-repeat;
+transform: rotate(0deg);
+}
+    
+
+/* ------------chat cloud------------ */
+.chattxt {
+    position: relative;
+    min-height: 50px;
+    width: 273px;
+    padding: 13px;
+    margin:-180px 0px 0 -50px;
+    background-color: #6696E2;
+    border-radius: 10px  ;
+    list-style-type: none;
+    box-sizing: border-box;
+    color: cornsilk;
+}
+
+//   /* ---------chat arrow------------ */
+  .chat .chattxt::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    bottom: -8px;
+    left: 50px;
+    margin: auto;
+    border-top: 20px solid #6696E2;
+    border-left: 20px solid #6696E2;
+    border-radius: 3px;
+    transform: rotate(225deg);  
+    
+     }
+        

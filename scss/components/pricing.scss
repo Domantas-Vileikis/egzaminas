@@ -1,0 +1,151 @@
+.pricing {
+    height: 883px;
+    width: 100%;
+    background-color: #6696E2;
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        // border: 2px solid red;
+
+        h3{
+            font-size: 36px;
+            margin-top: 98px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .text{ 
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+
+        .line {
+            background-color: #41D395 ;
+            margin:  22px 0 22px 0;
+         }
+
+        p {
+            
+                font-size: 14px;
+                color: #86878B;
+                text-align: center;
+                font-weight: 400;
+                color: #FFFFFF;
+        }
+        }
+ .prices{
+    height: 493pxpx;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    align-items: flex-end; 
+    justify-content: space-between;
+
+ 
+
+   .price {
+    display: flex;
+    flex-direction: column;
+    height: 453px;
+    width: 343px;
+    background-color: #FFFFFF;
+    border-radius: 10px ;
+    text-align: center;
+
+    &.mid {
+        height: 493px;
+        width: 343px;
+    }
+       
+
+    
+
+    .price_head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 208px;
+    width: 100%;
+    background-color: #333333;
+    border-radius: 10px 10px 0 0;
+   
+
+       .price_head_value {
+        width: 100%;
+        text-align: center;
+        // border: 2px solid white;
+        line-height: 0;
+        margin: 10px;
+        
+ 
+        h3 {
+           font-size: 35px;
+           margin-top: 50px;
+           padding: 0;
+           line-height: 0;
+        }
+           
+           span{
+              font-size: 94px;
+            
+         }
+       
+    }
+    
+  
+}
+h4 {
+    color:  #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.pro {
+    margin-bottom: 90px;
+    h4 {
+       line-height: 110px;
+       font-weight: 400;
+
+    }
+}
+
+p{
+    color:  #FFFFFF;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    font-weight: 200;
+    
+  }
+.price_line {
+    height: 6px;
+    width: 100%;
+    background-color: #41D395;
+
+   
+   &.mid {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: #41D395;
+
+   }
+   }
+   ul{
+    list-style: none;
+    li {
+        margin:20px;
+    }
+    
+       
+   }
+}
+}
+}
+}

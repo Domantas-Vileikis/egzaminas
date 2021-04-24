@@ -1,141 +1,46 @@
-* {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    scroll-behavior: smooth;
 
-}
-
-:root {
-    --main-brown-color: #1C1C1C;
-    --main-orange-color: #E27866;
-    --main-white-color: #FFFFFF;
-    // --facebook-color:#3b5998 ;
-    --instagram-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
-  }
-  
-.container {
-    max-width: 1200px;
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 72px;
     width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-    overflow: hidden;
-}
+    background-color: var(--main-brown-color);
+    z-index: 999;
 
-.line {
-    width: 80px;
-    height: 4px;
-    background-color: #FFFFFF;
-    margin-top: 21px 0 24px 0;
-  
-}
-// .menuline {
-//     position: relative;
-//     align-self: flex-end ;
-//     background-color: var(--main-orange-color);
-//     width: 65px;
-//     height: 4px;
-// }
+    .container {
+   
 
-.started {
-    width:  260px;
-    margin: 0 auto;
-}
-    p {
-        margin: 30px 0 0 0;
-    }
-    input {
-        width: 100%;
-        border: none ;
-        border-bottom: 2px solid #D8D8D8;
-        font-size: 12px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        margin: 34px 0 0 0;
-}
-    .radio{
-        display: flex;
-        justify-content: space-between;
-        width: 160px;
-        height: 15px;
-        margin: 17px 0 17px 0;
-
+        .largemenu{ 
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
     
-    .custom-radio {
-        margin-bottom: 20px;
-        
-        input {
-          display: none;
-        }
-        
-        input:checked + label {
-          .radio-circle {
-            opacity: 1;
-            
-            &:after {
-              opacity: 1;
-            }
+              .logo {
+                 display: flex;
+                 align-items: center;
+                }
+                .desktop {
+                        ul {
+                        display: flex;
+                        list-style: none;
+                        text-decoration: none;
+                        align-items: center;
+                        margin: 25px;
+                        cursor: pointer;
+
+                 li {
+                     a {
+                    color: #FFFFFF;
+                    font-size: 14px;
+                    padding: 10px;
+                    text-decoration: none;
+                    margin: 0  0 0 25px;
+                    font-weight: 400;
+                       }
+                     } 
+                    }
+                  }
+               }
           }
         }
-        
-        label {
-          display: flex;
-          align-items: center;
-          cursor: pointer;
-          
-          span {
-            margin-left: 8px;
-            font-size: 9px;
-            font-family: 'Montserrat', sans-serif;
-          }
-        }
-        
-        .radio-circle {
-          position: relative;
-          width: 13px;
-          height: 13px;
-          border: 1px solid #41D395;
-          opacity: 0.5;
-          border-radius: 50%;
-          transition: 0.3s ease-in-out;
-          
-          &:after {
-            content: '';
-            position: absolute;
-            width: 5px;
-            height: 5px;
-            background: #41D395;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto;
-            border-radius: 50%;
-            transition: 0.3s ease-in-out;
-            opacity: 0;
-          }
-        }
-        
-      }
-}
-// -----------------------------------------
-.btn{
-    position: relative;
-  }
-  .btn:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 20px;
-    display: block;
-    margin-top: 20px;
-    right: 0;
-    background: #E27866;
-    transition: .5s ease;
-  }
-  .btn:hover:after{
-    width: 100%;
-    left: 0;
-    background: #E27866;
-  }
