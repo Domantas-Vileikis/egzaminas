@@ -32,8 +32,6 @@ for (let tab of tabNavigationBlocks) {
     
   })
 }
-
-
 const swiper = new Swiper('.reviews-swiper', {
     slidesPerView: 1,
     autoHeight: true,
@@ -52,5 +50,25 @@ const swiper = new Swiper('.reviews-swiper', {
       el: '.swiper-pagination',
       clickable: true
     },
-
+    const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      loop: true,
+      autoHeight: true,
+      breakpoints: {
+    
+        600: {
+          slidesPerView: 2,
+        },
+     
+        1000: {
+          slidesPerView: 3,
+        }
+      },
+     
+    
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+    });
   });
