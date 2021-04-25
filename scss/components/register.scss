@@ -105,7 +105,6 @@
     height: 400px;
     margin-left: auto;
     margin-right: auto;
-    // border: 2px solid red;
     margin-left: 100px;
     margin-top: 20px;
 
@@ -117,19 +116,18 @@
 
        .swiper-wrapper{
          display: flex;
-        // justify-content: center;
-        // align-items: center;
+         justify-content: center;
+         align-items: center;
 
                     .swiper-slide{
                          display: flex;
-                        // justify-content: center;
-                        // align-items: center;
+                        justify-content: center;
+                     align-items: center;
 .text {
     max-width: 517px;
     min-height: 1px;
     z-index: 3;
     align-self: center;
-    // border: 2px solid red;
     box-sizing: border-box;
     padding: 20px;
 
@@ -153,14 +151,12 @@
     max-width: 360px;
     max-height: 360px;
     z-index: 3;
-    // border: 2px solid black;
 
     .firstrow {
         display: flex;
         justify-content: space-between;
         width: 360px;
         height: 168px; 
-        // border: 2px solid black;
         margin-bottom: 20px;
 
     .image1{
@@ -250,7 +246,7 @@
         z-index: 2;
     }
     .image2:hover::after {
-        content: "Cutted vegetables"; 
+        content: "REGISTER"; 
         position: absolute;
         display: flex;
         justify-content: center;
@@ -271,7 +267,7 @@
         background-position: -10px -5px; 
     }
     .image3:hover::before {
-        content: ""; 
+        content: "Receive"; 
         position: absolute;
         display: flex;
         justify-content: center;
@@ -284,7 +280,7 @@
         z-index: 2;
     }
     .image3:hover::after {
-        content: "Some Shoes"; 
+        content: "Receive"; 
         position: absolute;
         display: flex;
         justify-content: center;
